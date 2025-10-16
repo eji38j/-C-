@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|d:\\project\\consoleapp1\\student management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|c:\\users\\50533\\documents\\github\\-c-\\consoleapp1\\student management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|solutionrelative:student management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|D:\\project\\ConsoleApp1\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|solutionrelative:lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|D:\\project\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084C1997-2BFA-4280-819A-39F24B6108B4}|Program.csproj|solutionrelative:lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Student management.cs",
-              "DocumentMoniker": "D:\\project\\ConsoleApp1\\Student management.cs",
+              "DocumentMoniker": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Student management.cs",
               "RelativeDocumentMoniker": "Student management.cs",
-              "ToolTip": "D:\\project\\ConsoleApp1\\Student management.cs",
+              "ToolTip": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Student management.cs",
               "RelativeToolTip": "Student management.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAADwv6kAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T06:48:37.224Z",
               "EditorCaption": ""
@@ -47,11 +47,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\project\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\project\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Lab.cs",
-              "DocumentMoniker": "D:\\project\\ConsoleApp1\\Lab.cs",
+              "DocumentMoniker": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Lab.cs",
               "RelativeDocumentMoniker": "Lab.cs",
-              "ToolTip": "D:\\project\\ConsoleApp1\\Lab.cs",
+              "ToolTip": "C:\\Users\\50533\\Documents\\GitHub\\-C-\\ConsoleApp1\\Lab.cs",
               "RelativeToolTip": "Lab.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

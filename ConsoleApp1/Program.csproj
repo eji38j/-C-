@@ -52,11 +52,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Convenience\Convenience.csproj">
-      <Project>{d2be9636-dad4-4cae-8339-cd4f0343f686}</Project>
-      <Name>Convenience</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
