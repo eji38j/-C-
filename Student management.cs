@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 
 namespace StudentManagement
@@ -11,6 +12,7 @@ namespace StudentManagement
         AddStudent,
         DeleteStudent,
         FindStudent,
+        ChangeStudent,
         Exit
         };
 
@@ -62,7 +64,7 @@ static class StudentList
         public static int ShowMenu()
         {
             Console.WriteLine("Press 1 to check students\nPress 2 to add student\nPress 3 to delete student" +
-                "\nPress 4 to find student\nPress 5 to exit\n");
+                "\nPress 4 to find student\nPress 5 to changeStudent\nPress 6 to exit");
             return Convert.ToInt32(Console.ReadLine());
         }
         public static void CheckStudents()
@@ -147,6 +149,26 @@ static class StudentList
                     temp = temp.nextOne;
                 }
            
+        }
+        public static void ChangeStudent(string targetName)
+        {
+            string tempName;
+            int tempScore;
+            StudentNode tempStudent = FindStudent(targetName);
+            if (tempStudent == null)
+            {
+                Console.WriteLine($"Didn't find the student:{targetName}");
+                Console.ReadLine();
+                return;
+            }
+            Console.WriteLine("Please enter the changed name:");
+            tempName = Console.ReadLine();
+            Console.WriteLine("Please enter the changed score:");
+            tempScore = Convert.ToInt32(Console.ReadLine());
+            tempStudent.thisOne.name = tempName;
+            tempStudent.thisOne.score = tempScore;
+            Console.WriteLine("Done!\n\n");
+            Console.ReadLine();
         }
 
     }
@@ -254,6 +276,13 @@ static class StudentList
                             }
                         }
                         while (Interaction.ContinueOrNot() == true);
+                        break;
+                    case state.ChangeStudent:
+                        string tempName;
+                        StudentList.CheckStudents();
+                        Console.WriteLine("Which one do you want to change?(Please enter the name.)");
+                        tempName = Console.ReadLine();
+                        StudentList.ChangeStudent(tempName);
                         break;
                     default:
                         StudentList.states = state.Exit;
