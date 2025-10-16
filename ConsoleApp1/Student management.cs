@@ -63,7 +63,7 @@ static class StudentList
         public static StudentNode head = new StudentNode();
         public static int ShowMenu()
         {
-            Console.WriteLine("Hello!Welcome to our student management system!我不好\nPress 1 to check students\nPress 2 to add student\nPress 3 to delete student" +
+            Console.WriteLine("Hello!Welcome to our student management system!我不好，我非常不好\nPress 1 to check students\nPress 2 to add student\nPress 3 to delete student" +
                 "\nPress 4 to find student\nPress 5 to changeStudent\nPress 6 to exit");
             return Convert.ToInt32(Console.ReadLine());
         }
